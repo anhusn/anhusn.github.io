@@ -1,0 +1,141 @@
+body {
+  background: url("../media/background.jpg") no-repeat fixed 100%;
+  font-family: Helvetica, serif;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #86340a;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, serif;
+    color: #c36839;
+    margin-left: 20px;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  color: darkgreen;
+}
+
+#top {
+  width: 100%;
+  background-color: #f7f6f2;
+  border-top: 1px dashed #262626;
+  border-left: 1px dashed #262626;
+  border-right: 1px dashed #262626;
+}
+
+nav ul {
+  background-color: #262626;
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-left: 1px dashed #f7f6f2;
+  border-right: 1px dashed #f7f6f2;
+  border-bottom: 1px dashed #f7f6f2;
+  width: 100%;
+
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #f7f6f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  border-top: 1px dashed #262626;
+  border-left: 1px dashed #262626;
+  border-right: 1px dashed #262626;
+}
+
+nav li a:hover {
+  background-color: #f7f6f2;
+  color:  black;
+}
+
+nav li.selected a {
+  background-color: #f7f6f2;
+  color: #262626;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+a:hover {
+  background-color: grey;
+  color: white;
+}
+
+table a {
+  text-decoration: none;
+  color: #f7f6f2;
+  font-weight: 900;
+}
+
+table,th,td {
+  border: 1px dashed #f7f6f2;
+  border-collapse: collapse;
+  background-color: #86340a;
+  color: #F7F6F2;
+  padding: 10px;
+  min-width: 100%;
+}
+
+#content {
+  width: 50%;
+  background-color: #f7f6f2;
+  padding: 50px;
+  border: 1px dashed #262626;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+#content li {
+  list-style-type: circle;
+  font-weight: 900;
+}
+
+#content img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  background-color: #262626;
+  bottom: 0;
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+  color:  #f7f6f2;
+  text-align:  center;
+  font-family: monospace;
+  border: 1px dashed #f7f6f2;
+
+}
+
+cite {
+  color: #666666;
+}
